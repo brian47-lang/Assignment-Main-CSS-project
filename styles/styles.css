@@ -1,0 +1,149 @@
+ @font-face {
+    font-family: 'roboto';
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+ }
+ *{
+    font-family: 'roboto';
+ }
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 40px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+    margin-right: 50px;
+  }
+  header nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .sectionOne{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .containerA {
+    flex: 1;
+    margin-left:40px;
+  }
+  .containerB {
+    flex: 1;
+  }
+.logoEl {
+    width:100%;
+    height:auto;
+  }
+.containerA h1 {
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.containerA p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signUpBtn{
+    background-color:#3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border-style: none;
+}
+.informationEl{
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:100%;
+}
+.services{
+    display: flex;
+    justify-content: center;
+}
+.services img{
+    width:100px;
+    height:100px;
+    border:2px solid ;
+    border-color:#3882F6;
+    border-radius: 10px;
+}
+.services p{
+    font-size:small;
+}
+.servicesEl{
+    margin:10px;
+}
+.servicesEl P{
+    font-weight: bolder;
+}
+.qouteEl{
+    background-color:#E5E7EB;
+    text-align: center;
+  
+}
+.qouteEl p{
+    font-style:italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+}
+.sectionTwo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #3882F6;
+    margin: 20px 110px;
+    border-radius: 15px;
+    color:#F9FAF8;
+    margin-top: 50px;
+}
+.containerC{
+    flex:1;
+    justify-content: center;
+    align-items: center; 
+    padding:0 50px;
+}
+.containerC h4{
+    font-size: 24px;
+
+}
+.containerC p{
+    font-size: 18px;
+}
+.containerD{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 20px;
+}
+.signUpBtn2{
+    padding:10px 40px;
+    border-radius: 10px;
+    border-color:#F9FAF8;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 18px;
+}
+footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
