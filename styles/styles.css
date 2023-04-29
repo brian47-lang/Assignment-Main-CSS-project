@@ -21,6 +21,10 @@ header {
     height:150px;
     width:auto;
   }
+.headerlogoEl:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
  /*  header h1 {
     font-size: 24px;
     color: #F9FAF8;
@@ -43,7 +47,7 @@ header {
 header nav ul li a:hover{
     font-size: 20px;
     color: #374253;
-
+    cursor: pointer;
   }
   .sectionOne{
     background-color: #1F2937;
@@ -80,9 +84,12 @@ header nav ul li a:hover{
     padding: 15px 30px;
     border-radius: 15px;
     border-style: none;
+    margin-left: 10px;;
 }
 .signUpBtn:hover{
     background-color: #6e9fee;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .informationEl{
     text-align: center;
@@ -109,6 +116,7 @@ header nav ul li a:hover{
 }
 .servicesEl img:hover {
     transform: scale(1.2);
+    cursor: pointer;
   }
   
 .servicesEl P{
@@ -126,6 +134,9 @@ header nav ul li a:hover{
     color: #1F2937;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.thorEl{
+    font-weight: bolder;
 }
 .sectionTwo{
     display: flex;
@@ -168,6 +179,7 @@ header nav ul li a:hover{
 .signUpBtn2:hover{
     transform: scale(1.2);
     background-color: #6e9fee;
+    cursor: pointer;
 }
 footer{
     background-color: #1F2937;
