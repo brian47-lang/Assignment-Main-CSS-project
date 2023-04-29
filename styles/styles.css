@@ -5,28 +5,45 @@
  *{
     font-family: 'roboto';
  }
+ body {
+    margin: 0;
+ }
 header {
     background-color: #1F2937;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
+    position: fixed;
+    width:100%;
+    z-index: 1;
   }
-  header h1 {
+  .headerlogoEl{
+    height:150px;
+    width:auto;
+  }
+ /*  header h1 {
     font-size: 24px;
     color: #F9FAF8;
     padding-left: 40px;
-  }
+  } */
   header nav ul {
     list-style: none;
     display: flex;
     padding-right: 50px;
     margin-right: 50px;
+    margin-top: 50px;
   }
   header nav ul li a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
     padding: 0 10px;
+    margin-top: 20px;
+  }
+header nav ul li a:hover{
+    font-size: 20px;
+    color: #374253;
+
   }
   .sectionOne{
     background-color: #1F2937;
@@ -34,6 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width:auto;
   }
   .containerA {
     flex: 1;
@@ -63,6 +81,9 @@ header {
     border-radius: 15px;
     border-style: none;
 }
+.signUpBtn:hover{
+    background-color: #6e9fee;
+}
 .informationEl{
     text-align: center;
     font-size: 36px;
@@ -86,6 +107,10 @@ header {
 .servicesEl{
     margin:10px;
 }
+.servicesEl img:hover {
+    transform: scale(1.2);
+  }
+  
 .servicesEl P{
     font-weight: bolder;
 }
@@ -99,6 +124,8 @@ header {
     font-weight: lighter;
     font-size: 36px;
     color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .sectionTwo{
     display: flex;
@@ -137,6 +164,10 @@ header {
     background-color: #3882F6;
     color:#F9FAF8;
     font-size: 18px;
+}
+.signUpBtn2:hover{
+    transform: scale(1.2);
+    background-color: #6e9fee;
 }
 footer{
     background-color: #1F2937;
