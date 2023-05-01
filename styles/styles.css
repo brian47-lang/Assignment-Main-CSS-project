@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
     font-family: 'roboto';
     src: url(./fonts/Roboto/Roboto-Regular.ttf);
  }
@@ -12,6 +12,7 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content:space-around;
+    align-items: center;
     flex-wrap: wrap;
     position: fixed;
     width:100%;
@@ -21,33 +22,20 @@ header {
     height:150px;
     width:auto;
   }
-.headerlogoEl:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-}
- /*  header h1 {
-    font-size: 24px;
-    color: #F9FAF8;
-    padding-left: 40px;
-  } */
   header nav ul {
     list-style: none;
     display: flex;
-    padding-right: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
   }
   header nav ul li a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-    padding: 0 10px;
-    margin-top: 20px;
+    margin-left: 15px;
   }
 header nav ul li a:hover{
     font-size: 20px;
     color: #374253;
-    cursor: pointer;
+
   }
   .sectionOne{
     background-color: #1F2937;
@@ -84,22 +72,27 @@ header nav ul li a:hover{
     padding: 15px 30px;
     border-radius: 15px;
     border-style: none;
-    margin-left: 10px;;
 }
 .signUpBtn:hover{
     background-color: #6e9fee;
-    transform: scale(1.2);
-    cursor: pointer;
 }
 .informationEl{
     text-align: center;
     font-size: 36px;
     color:#1F2937;
     font-weight:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .services{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
 }
 .services img{
     width:100px;
@@ -112,20 +105,21 @@ header nav ul li a:hover{
     font-size:small;
 }
 .servicesEl{
-    margin:10px;
+    text-align: center;
+    
 }
 .servicesEl img:hover {
     transform: scale(1.2);
-    cursor: pointer;
   }
   
 .servicesEl P{
     font-weight: bolder;
 }
 .qouteEl{
-    background-color:#E5E7EB;
-    text-align: center;
-  
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  text-align: center;
 }
 .qouteEl p{
     font-style:italic;
@@ -133,11 +127,14 @@ header nav ul li a:hover{
     font-size: 36px;
     color: #1F2937;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
-.thorEl{
-    font-weight: bolder;
-}
+.qouteEl cite {
+    margin-left:50%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color: #1F2937;
+  }
 .sectionTwo{
     display: flex;
     align-items: center;
@@ -164,7 +161,6 @@ header nav ul li a:hover{
 .containerD{
     flex:1;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
     margin-right: 20px;
@@ -180,7 +176,6 @@ header nav ul li a:hover{
 .signUpBtn2:hover{
     transform: scale(1.2);
     background-color: #6e9fee;
-    cursor: pointer;
 }
 footer{
     background-color: #1F2937;
